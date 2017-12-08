@@ -21,14 +21,17 @@ int main(int argc, char const *argv[]) {
             }
         }
         for (size_t i = 0; i < m; i++) {
-            printf("------------------------------\n");
             for (size_t j = 0; j < n; j++) {
-                printf("|%f",b[i][j]);
+                printf("--------");
+            }
+            printf("-\n");
+            for (size_t j = 0; j < n; j++) {
+                printf("|%7.2f",b[i][j]);
             }
             printf("|\n");
 
         }
-        printf("------------------------------\n");
+
     }
     return 0;
 }
