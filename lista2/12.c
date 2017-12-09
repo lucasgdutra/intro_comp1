@@ -38,9 +38,6 @@ int main(int argc, char const *argv[]) {
         c[i][j] = 0;
         for (size_t l = 0; l < m; l++) {
           c[i][j] += a[i][l]*b[l][j];
-          printf("%f\n",a[i][l]);
-          printf("%f\n",b[l][j]);
-          printf("%f\n",c[i][j]);
         }
       }
     }
